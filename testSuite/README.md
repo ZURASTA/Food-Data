@@ -6,13 +6,13 @@ This directory contains a Python program checking validity of this project. It w
 
 Usage
 -----
-This program accept one optional argument specifying the directory. If the argument is not provided, it will check all directory `../allergens` `../cuisines` `../diets` `../ingredients`.
+This program accept one optional argument specifying the directory. If the argument is not provided, it will check all directory `../allergens` `../cuisines` `../diets` `../ingredients`. Due to hardcode file path, the test should be run under the root directory (Food-Data)
 
 __Example:__
 
 ```Bash
-$ python3 testSuites.py
-$ python3 testSuites.py ../allergens
+$ python3 testSuite/testSuite.py
+$ python3 testSuite/testSuite.py ./allergens
 ```
 
 

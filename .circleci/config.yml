@@ -30,7 +30,7 @@ jobs:
           name: run tests
           command: |
             . venv/bin/activate
-            python3 testSuite/testSuite.py ./allergens
+            python3 testSuite/testSuite.py
 
       - store_artifacts:
           path: test-reports

@@ -127,7 +127,7 @@ def validCuisineType(value):
 # that exists in diets/
 def validExDiet(value):
     # get the path to diets/
-    path = Path('../diets')
+    path = Path('./diets')
     # exam the reference
     if type(value) == list:
         for ele in value:
@@ -144,7 +144,7 @@ def validExDiet(value):
 # that exists in allergens/
 def validExAllergen(value):
     # get the path to allergens/
-    path = Path('../allergens')
+    path = Path('./allergens')
     # exam the reference
     if type(value) == list:
         for ele in value:
@@ -248,10 +248,10 @@ def main():
         validFile(sys.argv[1])
     elif len(sys.argv) == 1:
         print('Test all folders')
-        validFile('../cuisines')
-        validFile('../diets')
-        validFile('../ingredients')
-        validFile('../allergens')
+        validFile('./cuisines')
+        validFile('./diets')
+        validFile('./ingredients')
+        validFile('./allergens')
     else:
         print('Wrong arguments')
     sys.exit(returnVal)
