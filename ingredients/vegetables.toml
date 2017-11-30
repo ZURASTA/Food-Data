@@ -1,5 +1,5 @@
 # https://en.wikipedia.org/wiki/Vegetable#Terminology (Culinary Vegetable)
-exclude-diet = ["carnivoroust", "ketogenic"]
+exclude-diet = ["carnivorous", "ketogenic"]
 
 [translation]
   [translation.en]

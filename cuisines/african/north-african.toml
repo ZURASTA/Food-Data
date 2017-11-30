@@ -1,7 +1,7 @@
 # https://en.wikipedia.org/wiki/List_of_African_cuisines#North_African_cuisine
 # https://en.wikipedia.org/wiki/African_cuisine#North_Africa
 
-type = "subregiont"
+type = "subregion"
 
 [translation]
   [translation.en]
