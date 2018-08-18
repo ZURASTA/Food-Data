@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "central europe"
     adj = "central european"
+  [translation.es]
+    term = "europa central"
+    adj = "europea central"
