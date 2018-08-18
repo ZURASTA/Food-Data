@@ -7,3 +7,6 @@ type = "subregion"
   [translation.en]
     term = "north africa"
     adj = "north african"
+  [translation.es]
+    term = "áfrica del norte"
+    adj = "norteafricano"
