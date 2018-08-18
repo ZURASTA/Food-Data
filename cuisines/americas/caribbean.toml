@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "caribbean"
     adj = "caribbean"
+  [translation.es]
+    term = "caribe"
+    adj = "caribeña"
