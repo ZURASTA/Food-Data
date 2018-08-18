@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "east asia"
     adj = "east asian"
+  [translation.es]
+    term = "asia oriental"
+    adj = "asiática oriental"
