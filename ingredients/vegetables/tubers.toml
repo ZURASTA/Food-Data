@@ -4,3 +4,5 @@ exclude-diet = ["fruitarian"]
 [translation]
   [translation.en]
     term = "tuber"
+  [translation.es]
+    term = "tubérculo"
