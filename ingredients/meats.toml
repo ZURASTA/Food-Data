@@ -6,3 +6,5 @@ exclude-diet = ["vegan", "vegetarian", "pescetarian", "raw-vegan", "fruitarian"]
     term = "meat"
   [translation.fr]
     term = "viande"
+  [translation.es]
+    term = "carne"
