@@ -7,3 +7,6 @@ type = "continent"
   [translation.en]
     term = "africa"
     adj = "african"
+  [translation.es]
+    term = "africa"
+    adj = "africana"
