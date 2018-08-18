@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "latin america"
     adj = "latin american"
+  [translation.es]
+    term = "américa latina"
+    adj = "latinoamericana"
