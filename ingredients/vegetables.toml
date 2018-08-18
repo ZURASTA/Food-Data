@@ -6,3 +6,5 @@ exclude-diet = ["carnivorous", "ketogenic"]
     term = "vegetable"
   [translation.fr]
     term = "légume"
+  [translation.es]
+    term = "vegetales"
