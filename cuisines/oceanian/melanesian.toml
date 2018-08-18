@@ -7,3 +7,6 @@ type = "subregion"
   [translation.en]
     term = "melanesia"
     adj = "melanesian"
+  [translation.es]
+    term = "melanesia"
+    adj = "melanesio"
