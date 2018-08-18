@@ -6,3 +6,5 @@ exclude-diet = ["kosher", "halal"]
     term = "pork"
   [translation.fr]
     term = "viande de porc"
+  [translation.es]
+    term = "carne de cerdo"
