@@ -7,3 +7,6 @@ type = "subregion"
   [translation.en]
     term = "central africa"
     adj = "central african"
+  [translation.es]
+    term = "áfrica central"
+    adj = "centroafricana"
