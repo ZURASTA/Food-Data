@@ -4,3 +4,5 @@
     term = "poultry"
   [translation.fr]
     term = "volaille"
+  [translation.es]
+    term = "aves"
