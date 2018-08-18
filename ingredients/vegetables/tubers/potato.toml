@@ -4,3 +4,5 @@
     term = "potato"
   [translation.fr]
     term = "pomme de terre"
+  [translation.es]
+    term = "papa"
