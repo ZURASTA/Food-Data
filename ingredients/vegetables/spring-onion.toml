@@ -12,3 +12,7 @@
         term = "gibbon"
   [translation.fr]
     term = "ciboule"
+  [translation.es]
+    term = "cebolla de primavera"
+    [translation.es.VE]
+      term = "cebolleta"
