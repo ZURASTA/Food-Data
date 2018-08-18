@@ -7,3 +7,6 @@ type = "subregion"
   [translation.en]
     term = "horn africa"
     adj = "horn african"
+  [translation.es]
+   term = "Cuerno de África"
+   adj = "cuerno africano"
