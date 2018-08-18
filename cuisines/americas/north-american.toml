@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "north america"
     adj = "north american"
+  [translation.es]
+    term = "américa del norte"
+    adj = "norteamericana"
