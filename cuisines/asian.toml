@@ -7,3 +7,6 @@ type = "continent"
   [translation.en]
     term = "asia"
     adj = "asian"
+  [translation.es]
+    term = "Asia'
+    adj = "asiática"
