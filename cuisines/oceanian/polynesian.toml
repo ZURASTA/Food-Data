@@ -7,3 +7,6 @@ type = "subregion"
   [translation.en]
     term = "polynesia"
     adj = "polynesian"
+  [translation.es]
+    term = "polinesia"
+    adj = "polinesio"
