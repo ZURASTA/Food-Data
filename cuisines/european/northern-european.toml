@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "northern europe"
     adj = "northern european"
+  [translation.es]
+    term = "europa del norte"
+    adj = "europea del norte"
