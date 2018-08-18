@@ -8,3 +8,6 @@ type = "subregion"
   [translation.en]
     term = "australasia"
     adj = "australasian"
+  [translation.es]
+    term = "australasia"
+    adj = "australasiana"
