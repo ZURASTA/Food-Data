@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "eastern europe"
     adj = "eastern european"
+  [translation.es]
+    term = "europa oriental"
+    adj = "europea oriental"
