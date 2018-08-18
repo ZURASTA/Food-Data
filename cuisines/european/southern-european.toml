@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "southern europe"
     adj = "southern european"
+  [translation.es]
+    term = "europa meridional"
+    adj = "europea meridional"
