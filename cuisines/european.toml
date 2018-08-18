@@ -8,5 +8,5 @@ type = "continent"
     term = "europe"
     adj = "european"
   [translation.es]
-    term = "Europa"
+    term = "europa"
     adj = "europea"
