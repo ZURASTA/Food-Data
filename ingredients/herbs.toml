@@ -4,3 +4,5 @@ exclude-diet = ["carnivorous", "ketogenic"]
 [translation]
   [translation.en]
     term = "herb"
+  [translation.es]
+    term = "hierbas"
