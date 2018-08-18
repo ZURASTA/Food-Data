@@ -8,5 +8,5 @@ type = "continent"
     term = "asia"
     adj = "asian"
   [translation.es]
-    term = "Asia"
+    term = "asia"
     adj =  "asiática"
