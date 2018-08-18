@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "central asia"
     adj = "central asian"
+  [translation.es]
+    term = "asia central"
+    adj = "asiática central"
