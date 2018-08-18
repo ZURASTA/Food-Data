@@ -4,3 +4,5 @@
     term = "cheese"
   [translation.fr]
     term = "fromage"
+  [translation.es]
+    term = "quesos"
