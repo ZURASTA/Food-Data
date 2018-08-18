@@ -7,3 +7,6 @@ type = "subregion"
   [translation.en]
     term = "micronesia"
     adj = "micronesian"
+  [translation.es]
+    term = "micronesia"
+    adj = "micronesia"
