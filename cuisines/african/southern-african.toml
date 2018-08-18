@@ -7,3 +7,6 @@ type = "subregion"
   [translation.en]
     term = "southern africa"
     adj = "southern african"
+  [translation.es]
+    term = "África del Sur"
+    adj = "sudafricana"
