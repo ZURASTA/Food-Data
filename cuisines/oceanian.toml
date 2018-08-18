@@ -7,3 +7,6 @@ type = "continent"
   [translation.en]
     term = "oceania"
     adj = "oceanian"
+  [translation.es]
+    term = "oceanía"
+    
