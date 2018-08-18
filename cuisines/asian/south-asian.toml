@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "south asia"
     adj = "south asian"
+  [translation.es]
+    term = "sur de asia"
+    adj = "sur asiatica"
