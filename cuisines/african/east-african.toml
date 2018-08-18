@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "east africa"
     adj = "east african"
+  [translation.es]
+    term = "áfrica oriental"
+    adj = "africana oriental"
