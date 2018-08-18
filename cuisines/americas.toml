@@ -7,3 +7,6 @@ type = "continent"
   [translation.en] # unsure of correct terminology, this will be confused with US "american cuisine"
     term = "america"
     adj = "american"
+  [translation.es]
+    term = "america"
+    adj = "americana"
