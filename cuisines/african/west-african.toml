@@ -7,3 +7,6 @@ type = "subregion"
   [translation.en]
     term = "west africa"
     adj = "west african"
+  [translation.es]
+    term = "áfrica occidental"
+    adj = "africana occidental"
