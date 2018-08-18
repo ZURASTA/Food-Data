@@ -6,3 +6,6 @@ type = "country"
   [translation.en]
     term = "italy"
     adj = "italian"
+  [translation.es]
+    term = "italia"
+    adj = "italiana"
