@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "west asia"
     adj = "west asian"
+  [translation.es]
+    term = "asia occidental"
+    adj = "asiática occidental"
