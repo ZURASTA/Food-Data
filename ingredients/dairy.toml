@@ -6,3 +6,5 @@ exclude-diet = ["carnivorous", "vegetarian", "vegan", "raw-vegan", "paleolithic"
     term = "dairy"
   [translation.fr]
     term = "produits laitiers"
+  [translation.es]
+    term = "productos lácteos"
