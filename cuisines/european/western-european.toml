@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "western europe"
     adj = "western european"
+  [translation.es]
+    term = "europa occidental"
+    adj = "europea occidental"
