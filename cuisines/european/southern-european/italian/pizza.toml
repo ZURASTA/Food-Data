@@ -3,3 +3,5 @@ type = "dish"
 [translation]
   [translation.en]
     term = "pizza"
+  [translation.es]
+    term = "pizza"
