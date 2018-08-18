@@ -6,3 +6,6 @@ type = "subregion"
   [translation.en]
     term = "central america"
     adj = "central american"
+  [translation.es]
+    term = "américa central"
+    adj = "centroamericana"
