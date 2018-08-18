@@ -1,5 +1,5 @@
 # https://en.wikipedia.org/wiki/Herb (Culinary Herb) : Possibly belongs under vegetables?
-exclude-diet = ["carnivorous", "ketogenic"]
+exclude-diet = ["carnivorous"]
 
 [translation]
   [translation.en]
