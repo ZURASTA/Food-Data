@@ -32,7 +32,7 @@ def validAttribute(attribute):
 def validValue(value):
     for character in value:
         if character.isupper():
-            raise configError('invalid value')
+            raise configError('invalid value: (uppercase: "' + value + '")')
 
 
 # Traverse a dictionary parsed from a .toml file with many
