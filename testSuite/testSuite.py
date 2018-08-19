@@ -16,7 +16,7 @@ returnVal = 0
 def validFilename(filename):
     result = re.findall('[^a-z\-\.]', filename)
     if not len(result) == 0:
-        raise configError('invalid filename')
+        raise configError('invalid filename: \'' + filename + '.toml\' (must contain only lowercase letters and hyphens)')
 
 
 # A valid attribute should only contain lowercase letters,
