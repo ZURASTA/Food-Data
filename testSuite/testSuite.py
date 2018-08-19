@@ -137,9 +137,9 @@ def validExDiet(value):
             filename = ele + '.toml'
             pathToFile = path / filename
             if not pathToFile.is_file():
-                raise configError('invalid exclude-diet')
+                raise configError('invalid exclude-diet: "' + ele + '" (unknown diet)')
     else:
-        raise configError('invalid exclude-diet')
+        raise configError('invalid exclude-diet: `' + type(value).__name__ + '` (must be a `list`)')
 
 
 # should have a list of strings as its value (may be an empty
@@ -154,9 +154,9 @@ def validExAllergen(value):
             filename = ele + '.toml'
             pathToFile = path / filename
             if not pathToFile.is_file():
-                raise configError('invalid exclude-allergen')
+                raise configError('invalid exclude-allergen: "' + ele + '" (unknown allergen)')
     else:
-        raise configError('invalid exclude-allergen')
+        raise configError('invalid exclude-allergen: `' + type(value).__name__ + '` (must be a `list`)')
 
 
 # A cuisine must have a type attribute
