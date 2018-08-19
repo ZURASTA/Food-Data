@@ -64,7 +64,7 @@ def traverseDictionary(element):
 # A vaild translation dictionary can have three levels:
 #  - The first level should be 2 lowercase letters
 #  - The second level should be 2 uppercase letters
-#  - The third level should be 3 uppercase letters
+#  - The third level should be 1 to 3 uppercase letters
 def validTranslation(dictionary, level):
     # verify data type of argument
     if not type(dictionary) == dict:
@@ -78,7 +78,7 @@ def validTranslation(dictionary, level):
     elif level == 2:
         match = '[A-Z]{2}'
     elif level == 3:
-        match = '[A-Z]{3}'
+        match = '[A-Z]{1,3}'
     elif level == 4:
         lowest = True
     else:

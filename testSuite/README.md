@@ -33,7 +33,7 @@ General Test Cases
 Translation Test Cases
 ----------------------
 
-* Attributes inside a `translation` should follow this format. For the first level, the current level attribute should be 2 lowercase letters (a-z). For the second level, the current level attribute should be 2 uppercase letters (A-Z). For the third level, the current level attribute should be 3 uppercase letters (A-Z). The following are valid translation attributes: `translation.aa`, `translation.aa.BB`, `translation.aa.BB.CCC`. The following are invalid translation attributes: `translation.AA`, `translation.aa.bb.CCC`, `translation.aaa`, `translation.aa.BBB`, `translation.aa.BB.CC`.
+* Attributes inside a `translation` should follow this format. For the first level, the current level attribute should be 2 lowercase letters (a-z). For the second level, the current level attribute should be 2 uppercase letters (A-Z). For the third level, the current level attribute should be 1-3 uppercase letters (A-Z). The following are valid translation attributes: `translation.aa`, `translation.aa.BB`, `translation.aa.BB.CCC`, `translation.aa.BB.CC`. The following are invalid translation attributes: `translation.AA`, `translation.aa.bb.CCC`, `translation.aaa`, `translation.aa.BBB`, `translation.aa.BB.CCCC`.
 * If they have a value, it should be a lowercase string (any character is valid).
 
 
