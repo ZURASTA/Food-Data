@@ -32,7 +32,7 @@ def validAttribute(attribute):
 def validValue(value):
     for character in value:
         if character.isupper():
-            raise configError('invalid value: (uppercase: "' + value + '")')
+            raise configError('invalid value: "' + value + '" (must be lowercase)')
 
 
 # Traverse a dictionary parsed from a .toml file with many
@@ -73,12 +73,16 @@ def validTranslation(dictionary, level):
     # declare naming pattern for certain layer
     lowest = False
     match = ''
+    error = ''
     if level == 1:
         match = '[a-z]{2}'
+        error = 'must be lowercase 2 letter language code [ISO 639-1]'
     elif level == 2:
         match = '[A-Z]{2}'
+        error = 'must be uppercase 3 letter country code [ISO 3166-1 alpha-2]'
     elif level == 3:
         match = '[A-Z]{1,3}'
+        error = 'must be uppercase 1 - 3 letter subdivision code [ISO 3166-2]'
     elif level == 4:
         lowest = True
     else:
@@ -93,7 +97,7 @@ def validTranslation(dictionary, level):
             elif type(val) == dict:
                 result = re.fullmatch(match, key)
                 if result == None:
-                    raise configError('invalid translation')
+                    raise configError('invalid translation: "' + key + '" (' + error + ')')
                 validTranslation(val, level + 1)
     else:
         for item in dictionary.items():
