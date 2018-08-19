@@ -24,7 +24,7 @@ def validFilename(filename):
 def validAttribute(attribute):
     result = re.findall('[^a-z1-9\-]', attribute)
     if not len(result) == 0:
-        raise configError('invalid attribute')
+        raise configError('invalid attribute: \'' + attribute + '\' (must contain only lowercase letters, numbers, and hyphens)')
 
 
 # A valid value should only contain lowercase letters (any
@@ -97,7 +97,7 @@ def validTranslation(dictionary, level):
             elif type(val) == dict:
                 result = re.fullmatch(match, key)
                 if result == None:
-                    raise configError('invalid translation: "' + key + '" (' + error + ')')
+                    raise configError('invalid translation: \'' + key + '\' (' + error + ')')
                 validTranslation(val, level + 1)
     else:
         for item in dictionary.items():
